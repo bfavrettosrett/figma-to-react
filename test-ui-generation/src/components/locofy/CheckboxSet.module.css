@@ -1,0 +1,48 @@
+.checkboxIcon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.unchecked1 {
+    margin: 0;
+}
+.unchecked {
+    position: relative;
+    line-height: 24px;
+}
+.property1unchecked {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 368px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.property1checked {
+    position: absolute;
+    top: 68px;
+    left: 20px;
+    width: 368px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.checkbox {
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    border: 1px dashed #7b61ff;
+    box-sizing: border-box;
+    height: 112px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #414a78;
+    font-family: 'Noto Sans';
+}
+
