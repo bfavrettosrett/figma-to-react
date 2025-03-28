@@ -1,0 +1,77 @@
+.vestalis-checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    border: 2px dashed #cccccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.vestalis-checkbox-container:hover {
+    border-color: rgba(123, 97, 255, 0.5);
+}
+
+.vestalis-checkbox-input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.vestalis-checkbox-checkmark {
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vestalis-checkbox-input:checked + .vestalis-checkbox-checkmark {
+    background: white;
+    border: 1px solid #cccccc;
+}
+
+.vestalis-checkbox-checkmark svg {
+    display: none;
+}
+
+.vestalis-checkbox-input:checked + .vestalis-checkbox-checkmark svg {
+    display: block;
+}
+
+.vestalis-checkbox-input:checked ~ .vestalis-checkbox-container {
+    border-color: #7b61ff;
+}
+
+.vestalis-checkbox-label-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.vestalis-checkbox-label {
+    color: #414a78;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.vestalis-checkbox-secondary-label {
+    color: #6b7280;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.vestalis-checkbox-input:checked ~ .vestalis-checkbox-container {
+    border: 2px solid #7b61ff;
+}

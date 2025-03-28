@@ -1,0 +1,78 @@
+.checkboxContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 368px;
+    align-items: flex-start;
+    min-height: 24px;
+  }
+
+  .checkboxInput {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1.5px solid #CCCCCC; /* Épaisseur de bordure corrigée */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+
+  .checkboxInput:hover:not(.disabled) {
+    border-color: #7B61FF;
+  }
+
+  .checked {
+    border: 1.5px solid #7B61FF !important; /* Épaisseur et couleur corrigées */
+    background: #FFFFFF;
+  }
+
+  .disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  .checkIcon {
+    position: absolute;
+    width: 12px; /* Taille corrigée */
+    height: 10px; /* Taille corrigée */
+    animation: fadeIn 0.2s ease-in-out;
+  }
+
+  .label {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; /* Line-height exacte */
+    color: #414A78;
+    margin-top: -2px; /* Ajustement vertical */
+    user-select: none; /* Empêche la sélection du texte */
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* État focus */
+  .checkboxInput:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(123, 97, 255, 0.2);
+  }
+
+  /* Support clavier */
+  .checkboxInput:focus {
+    outline: none;
+  }

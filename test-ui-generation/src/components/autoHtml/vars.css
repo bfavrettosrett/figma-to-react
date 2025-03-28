@@ -1,0 +1,37 @@
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --fond: #eff2f9;
+    --primary-primary-50: #fbfcff;
+    --primary-primary-100: #f0f4fd;
+    --primary-primary-200: #dee6fb;
+    --primary-primary-300: #c5d2f7;
+    --primary-primary-400: #a4b9f3;
+    --primary-primary-500: #7c9aed;
+    --primary-primary-600: #4c75e7;
+    --primary-primary-700: #1d4fd7;
+    --primary-primary-800: #102c79;
+    --primary-primary-900: #091740;
+    --primary-primary-950: #06102d;
+    --gray-gray-50: #fcfcfd;
+    --gray-gray-100: #f1f3f6;
+    --gray-gray-200: #e0e4ea;
+    --gray-gray-300: #c8ced9;
+    --gray-gray-400: #a8b3c4;
+    --gray-gray-500: #8292aa;
+    --gray-gray-600: #5b6b86;
+    --gray-gray-700: #384252;
+    --gray-gray-800: #242b35;
+    --gray-gray-900: #191d24;
+    --gray-gray-950: #15181e;
+
+    /* Fonts */
+    --intitule-colonnes-font-family: Inter-Medium, sans-serif;
+    --intitule-colonnes-font-size: 12px;
+    --intitule-colonnes-line-height: 39px;
+    --intitule-colonnes-font-weight: 500;
+    --intitule-colonnes-font-style: normal;
+
+    /* Effects */
+    --menu-shadow-box-shadow: 5px 5px 32.4px 0px rgba(61, 65, 124, 0.1);
+}

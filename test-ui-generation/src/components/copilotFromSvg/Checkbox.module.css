@@ -1,0 +1,50 @@
+.container {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.hiddenCheckbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.checkbox.checked {
+    background: white;
+    border-color: #CCCCCC;
+}
+
+.checkIcon {
+    fill: #161e46;
+    width: 60px;
+    height: 20px;
+    visibility: hidden;
+    transition: visibility 0.2s ease;
+}
+
+.checkIcon.visible {
+    visibility: visible;
+}
+
+.label {
+    margin-left: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    color: #414a78;
+}

@@ -1,0 +1,183 @@
+.prestationCard {
+    background: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 5px 5px 32.4px rgba(61, 65, 124, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.prestationHeader {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prestationTitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #102C79;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+}
+
+.toggleIcon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.rotated {
+    transform: rotate(180deg);
+}
+
+.notificationDot {
+    width: 8px;
+    height: 8px;
+    background: #FF0000;
+    border-radius: 50%;
+}
+
+.mainContent {
+    padding: 20px;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.headerInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.prestationNumber {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #102C79;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #091740;
+    margin: 0;
+}
+
+.technician {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #102C79;
+    margin: 0;
+}
+
+.badge {
+    background: #478F7C;
+    border-radius: 37px;
+    padding: 3px 12px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badgeText {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.divider {
+    height: 1px;
+    background: #E3E3E3;
+    width: 100%;
+}
+
+.dates {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.date {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #102C79;
+}
+
+.dateArrow {
+    width: 16px;
+    height: 16px;
+}
+
+.dots {
+    display: flex;
+    gap: 4px;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    background: #ABABAB;
+    border-radius: 50%;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 8px;
+    background: #FFFFFF;
+}
+
+.actionButton {
+    width: 52px;
+    height: 39px;
+    background: #EFF2F9;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.actionButton:hover {
+    background: #E5E9F2;
+}
+
+.actionButton img {
+    width: 20px;
+    height: 20px;
+}
+
+.closed .mainContent {
+    display: none;
+}
+
+.closed .toggleIcon {
+    transform: rotate(-180deg);
+}
