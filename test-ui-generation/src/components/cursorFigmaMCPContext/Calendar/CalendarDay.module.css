@@ -1,0 +1,73 @@
+.day {
+  position: relative;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  text-align: center;
+}
+
+/* Types de jours */
+.normal .circle {
+  background-color: #91BA6E;
+}
+
+.normal .number {
+  color: #FFFFFF;
+}
+
+.usage {
+  background-color: #D36A00;
+  border-radius: 4px;
+  border: 2px solid #FFFFFF;
+}
+
+.usage .circle {
+  background-color: #91BA6E;
+}
+
+.usage .number {
+  color: #FFFFFF;
+}
+
+.leak {
+  background-color: #7FAD57;
+  border-radius: 4px;
+  border: 2px solid #FFFFFF;
+}
+
+.leak .circle {
+  background-color: #91BA6E;
+}
+
+.leak .number {
+  color: #FFFFFF;
+}
+
+.disabled {
+  background-color: #E4E4E4;
+  border-radius: 4px;
+}
+
+.disabled .circle {
+  background-color: #CDCDCD;
+}
+
+.disabled .number {
+  color: #939393;
+}

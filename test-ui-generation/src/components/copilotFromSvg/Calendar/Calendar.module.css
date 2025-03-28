@@ -1,0 +1,183 @@
+.calendar {
+    width: 100%;
+    max-width: 800px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.monthYear {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.navButton {
+    background: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #4b5563;
+    transition: background-color 0.2s;
+}
+
+.navButton:hover {
+    background-color: #f3f4f6;
+}
+
+.chevron {
+    font-size: 20px;
+}
+
+.weekDays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.weekDay {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6b7280;
+    padding: 8px;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+}
+
+.day {
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 4px;
+    position: relative;
+    transition: background-color 0.2s;
+}
+
+.day:hover {
+    background-color: #f3f4f6;
+}
+
+.dayNumber {
+    font-size: 16px;
+    color: #374151;
+}
+
+.highAlert {
+    background-color: rgba(239, 68, 68, 0.2);
+}
+
+.mediumAlert {
+    background-color: rgba(245, 158, 11, 0.2);
+}
+
+.lowAlert {
+    background-color: rgba(251, 191, 36, 0.2);
+}
+
+.highUsage {
+    background-color: rgba(59, 130, 246, 0.2);
+}
+
+.mediumUsage {
+    background-color: rgba(96, 165, 250, 0.2);
+}
+
+.lowUsage {
+    background-color: rgba(147, 197, 253, 0.2);
+}
+
+.eventIndicator {
+    display: flex;
+    gap: 4px;
+    margin-top: 4px;
+}
+
+.leakIndicator {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ef4444;
+}
+
+.usageIndicator {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #3b82f6;
+}
+
+/* Update selected state to work with new colors */
+.selected {
+    border: 2px solid #3b82f6;
+    font-weight: 600;
+}
+
+.selected .dayNumber {
+    color: #ffffff;
+}
+
+.selected:hover {
+    background-color: #2563eb;
+}
+
+.emptyDay {
+    aspect-ratio: 1;
+}
+
+.eventDots {
+    display: flex;
+    gap: 2px;
+    margin-top: 4px;
+}
+
+.eventDot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #3b82f6;
+}
+
+.selected .eventDot {
+    background-color: #ffffff;
+}
+
+.hasEvents {
+    font-weight: 500;
+}
+
+@media (max-width: 640px) {
+    .calendar {
+        padding: 12px;
+    }
+
+    .weekDay {
+        font-size: 12px;
+    }
+
+    .dayNumber {
+        font-size: 14px;
+    }
+}

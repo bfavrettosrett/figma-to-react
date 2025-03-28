@@ -1,0 +1,477 @@
+.box {
+    height: 393px;
+    width: 363px;
+  }
+
+  .box .group {
+    height: 393px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 365px;
+  }
+
+  .box .overlap {
+    height: 393px;
+    position: relative;
+    width: 377px;
+  }
+
+  .box .div {
+    background-color: #ffffff;
+    border-radius: 18px;
+    box-shadow: var(--menu-shadow);
+    height: 393px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 362px;
+  }
+
+  .box .text-wrapper {
+    color: var(--primaryprimary-800);
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 21px;
+    font-weight: 600;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: 38px;
+    position: absolute;
+    top: 26px;
+    white-space: nowrap;
+    width: 140px;
+  }
+
+  .box .navbar {
+    height: 14px;
+    left: 28px;
+    opacity: 0.76;
+    position: absolute;
+    top: 77px;
+    width: 349px;
+  }
+
+  .box .text-wrapper-2 {
+    color: var(--primaryprimary-800);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 0.1px;
+    position: absolute;
+    top: 0;
+    width: 47px;
+  }
+
+  .box .text-wrapper-3 {
+    color: var(--primaryprimary-800);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 48px;
+    letter-spacing: 0;
+    line-height: 0.1px;
+    position: absolute;
+    top: 0;
+    width: 47px;
+  }
+
+  .box .text-wrapper-4 {
+    color: var(--primaryprimary-800);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 96px;
+    letter-spacing: 0;
+    line-height: 0.1px;
+    position: absolute;
+    top: 0;
+    width: 47px;
+  }
+
+  .box .text-wrapper-5 {
+    color: var(--primaryprimary-800);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 144px;
+    letter-spacing: 0;
+    line-height: 0.1px;
+    position: absolute;
+    top: 0;
+    width: 47px;
+  }
+
+  .box .text-wrapper-6 {
+    color: var(--primaryprimary-800);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 192px;
+    letter-spacing: 0;
+    line-height: 0.1px;
+    position: absolute;
+    top: 0;
+    width: 47px;
+  }
+
+  .box .text-wrapper-7 {
+    color: var(--primaryprimary-800);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 240px;
+    letter-spacing: 0;
+    line-height: 0.1px;
+    position: absolute;
+    top: 0;
+    width: 47px;
+  }
+
+  .box .text-wrapper-8 {
+    color: var(--primaryprimary-800);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 288px;
+    letter-spacing: 0;
+    line-height: 0.1px;
+    position: absolute;
+    top: 0;
+    width: 47px;
+  }
+
+  .box .group-2 {
+    height: 235px;
+    left: 21px;
+    position: absolute;
+    top: 101px;
+    width: 336px;
+  }
+
+  .box .component-151 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 46px !important;
+  }
+
+  .box .component-instance {
+    background-color: unset !important;
+    border-radius: unset !important;
+  }
+
+  .box .component-151-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 94px !important;
+  }
+
+  .box .design-component-instance-node {
+    left: 0 !important;
+    position: absolute !important;
+    top: 142px !important;
+  }
+
+  .box .component-2 {
+    background-color: unset !important;
+    border-radius: unset !important;
+    height: 35px !important;
+    width: 38px !important;
+  }
+
+  .box .component-3 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+
+  .box .component-4 {
+    height: 34px !important;
+    width: 34px !important;
+  }
+
+  .box .component-5 {
+    left: 48px !important;
+    position: absolute !important;
+    top: 46px !important;
+  }
+
+  .box .component-6 {
+    left: 48px !important;
+    position: absolute !important;
+    top: 94px !important;
+  }
+
+  .box .component-7 {
+    left: 48px !important;
+    position: absolute !important;
+    top: 142px !important;
+  }
+
+  .box .component-8 {
+    left: 48px !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+
+  .box .component-9 {
+    background-color: #cdcdcd !important;
+    height: 34px !important;
+    width: 34px !important;
+  }
+
+  .box .component-10 {
+    left: 96px !important;
+    position: absolute !important;
+    top: 46px !important;
+  }
+
+  .box .component-11 {
+    left: 96px !important;
+    position: absolute !important;
+    top: 94px !important;
+  }
+
+  .box .component-12 {
+    left: 96px !important;
+    position: absolute !important;
+    top: 142px !important;
+  }
+
+  .box .component-13 {
+    left: 96px !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+
+  .box .component-14 {
+    left: 144px !important;
+    position: absolute !important;
+    top: 46px !important;
+  }
+
+  .box .component-15 {
+    left: 144px !important;
+    position: absolute !important;
+    top: 94px !important;
+  }
+
+  .box .component-16 {
+    left: 144px !important;
+    position: absolute !important;
+    top: 142px !important;
+  }
+
+  .box .component-17 {
+    left: 144px !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+
+  .box .component-18 {
+    background-color: #96c171 !important;
+  }
+
+  .box .component-19 {
+    left: 192px !important;
+    position: absolute !important;
+    top: 46px !important;
+  }
+
+  .box .component-20 {
+    left: 192px !important;
+    position: absolute !important;
+    top: 94px !important;
+  }
+
+  .box .component-21 {
+    left: 192px !important;
+    position: absolute !important;
+    top: 142px !important;
+  }
+
+  .box .component-22 {
+    left: 192px !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+
+  .box .component-23 {
+    left: 240px !important;
+    position: absolute !important;
+    top: 46px !important;
+  }
+
+  .box .component-24 {
+    left: 240px !important;
+    position: absolute !important;
+    top: 94px !important;
+  }
+
+  .box .component-25 {
+    left: 240px !important;
+    position: absolute !important;
+    top: 142px !important;
+  }
+
+  .box .component-26 {
+    left: 240px !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+
+  .box .component-27 {
+    left: 288px !important;
+    position: absolute !important;
+    top: 46px !important;
+  }
+
+  .box .component-28 {
+    left: 288px !important;
+    position: absolute !important;
+    top: 94px !important;
+  }
+
+  .box .component-29 {
+    left: 288px !important;
+    position: absolute !important;
+    top: 142px !important;
+  }
+
+  .box .component-30 {
+    left: 144px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+
+  .box .component-31 {
+    left: 192px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+
+  .box .component-32 {
+    left: 240px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+
+  .box .component-33 {
+    left: 288px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+
+  .box .overlap-wrapper {
+    height: 27px;
+    left: 25px;
+    position: absolute;
+    top: 345px;
+    width: 261px;
+  }
+
+  .box .overlap-2 {
+    height: 27px;
+    position: relative;
+    width: 263px;
+  }
+
+  .box .group-3 {
+    height: 27px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 125px;
+  }
+
+  .box .ellipse-2 {
+    background-color: #7fad57;
+    border-radius: 11px;
+    height: 22px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 22px;
+  }
+
+  .box .text-wrapper-9 {
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    left: 32px;
+    letter-spacing: 0;
+    line-height: 33px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 91px;
+  }
+
+  .box .group-4 {
+    height: 27px;
+    left: 116px;
+    position: absolute;
+    top: 0;
+    width: 147px;
+  }
+
+  .box .text-wrapper-10 {
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: 33px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 121px;
+  }
+
+  .box .rectangle-2 {
+    background-color: #7fad57;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 4px;
+    height: 13px;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 13px;
+  }
+  :root {
+    --fond: rgba(239, 242, 249, 1);
+    --graygray-100: rgba(241, 243, 246, 1);
+    --graygray-200: rgba(224, 228, 234, 1);
+    --graygray-300: rgba(200, 206, 217, 1);
+    --graygray-400: rgba(168, 179, 196, 1);
+    --graygray-50: rgba(252, 252, 253, 1);
+    --graygray-500: rgba(130, 146, 170, 1);
+    --graygray-600: rgba(91, 107, 134, 1);
+    --graygray-700: rgba(56, 66, 82, 1);
+    --graygray-800: rgba(36, 43, 53, 1);
+    --graygray-900: rgba(25, 29, 36, 1);
+    --graygray-950: rgba(21, 24, 30, 1);
+    --intitul-colonnes-font-family: "Inter", Helvetica;
+    --intitul-colonnes-font-size: 12px;
+    --intitul-colonnes-font-style: normal;
+    --intitul-colonnes-font-weight: 500;
+    --intitul-colonnes-letter-spacing: 0px;
+    --intitul-colonnes-line-height: 39px;
+    --menu-shadow: 5px 5px 32.400001525878906px 0px rgba(61, 65, 124, 0.1);
+    --primaryprimary-100: rgba(240, 244, 253, 1);
+    --primaryprimary-200: rgba(222, 230, 251, 1);
+    --primaryprimary-300: rgba(197, 210, 247, 1);
+    --primaryprimary-400: rgba(164, 185, 243, 1);
+    --primaryprimary-50: rgba(251, 252, 255, 1);
+    --primaryprimary-500: rgba(124, 154, 237, 1);
+    --primaryprimary-600: rgba(76, 117, 231, 1);
+    --primaryprimary-700: rgba(29, 79, 215, 1);
+    --primaryprimary-800: rgba(16, 44, 121, 1);
+    --primaryprimary-900: rgba(9, 23, 64, 1);
+    --primaryprimary-950: rgba(6, 16, 45, 1);
+    --variable-collection-menu-shadow: rgba(61, 65, 124, 0.1);
+  }

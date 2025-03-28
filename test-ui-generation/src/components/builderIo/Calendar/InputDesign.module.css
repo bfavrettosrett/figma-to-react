@@ -1,0 +1,77 @@
+.calendarContainer {
+    background-color: #fff;
+    border-radius: 18px;
+    width: 362px;
+    height: 393px;
+    padding: 26px;
+    font-family: Inter;
+    box-shadow: 5px 5px 32.4px #3d417c1a;
+  }
+
+  .monthTitle {
+    color: #102c79;
+    margin-bottom: 7px;
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  .weekDaysHeader {
+    opacity: 0.76;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    display: flex;
+  }
+
+  .weekDay {
+    color: #102c79;
+    font-size: 12px;
+  }
+
+  .calendarGrid {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    display: grid;
+  }
+
+  .firstDayOffset {
+    grid-column-start: 4;
+  }
+
+  .legendContainer {
+    gap: 12px;
+    margin-top: 9px;
+    display: flex;
+  }
+
+  .legendItem {
+    align-items: center;
+    gap: 10px;
+    display: flex;
+  }
+
+  .usageIndicator {
+    background-color: #7fad57;
+    border-radius: 9999px;
+    width: 22px;
+    height: 22px;
+  }
+
+  .usageLabel {
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .leakIndicator {
+    background-color: #7fad57;
+    border-width: 2px;
+    border-color: #fff;
+    border-radius: 4px;
+    width: 13px;
+    height: 13px;
+  }
+
+  .leakLabel {
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+  }

@@ -1,0 +1,35 @@
+.component151Property1Blanc,
+.component151Property1Blanc * {
+  box-sizing: border-box;
+}
+.component151Property1Blanc {
+  width: 48px;
+  height: 45px;
+  position: relative;
+}
+.ellipse24 {
+  background: #e4e4e4;
+  border-radius: 50%;
+  width: 70.83%;
+  height: 75.56%;
+  position: absolute;
+  right: 18.75%;
+  left: 10.42%;
+  bottom: 13.33%;
+  top: 11.11%;
+}
+.one {
+  color: #939393;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 11px;
+  line-height: 0px;
+  font-weight: 600;
+  position: absolute;
+  right: 18.75%;
+  left: 12.5%;
+  width: 68.75%;
+  bottom: 35.56%;
+  top: 48.89%;
+  height: 15.56%;
+}
