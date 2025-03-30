@@ -6,6 +6,9 @@ const meta: Meta<typeof Property1Checked> = {
     // title: "Components/Property1Checked",
     component: Property1Checked,
     tags: ["autodocs"],
+    parameters: {
+        layout: 'centered',
+      },
     argTypes: {
         checked: {
             control: "boolean",

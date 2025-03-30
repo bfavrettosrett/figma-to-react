@@ -4,6 +4,9 @@ import CheckboxSet from "./CheckboxSet";
 
 const meta = {
     component: CheckboxSet,
+    // parameters: {
+    //     layout: 'centered',
+    //   },
 } satisfies Meta<typeof CheckboxSet>;
 
 export default meta;
