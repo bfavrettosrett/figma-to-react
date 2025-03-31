@@ -4,6 +4,9 @@ import { Box } from "./index.tsx";
 
 const meta = {
     component: Box,
+    // parameters: {
+    //     layout: 'fullscreen',
+    //   },
 } satisfies Meta<typeof Box>;
 
 export default meta;

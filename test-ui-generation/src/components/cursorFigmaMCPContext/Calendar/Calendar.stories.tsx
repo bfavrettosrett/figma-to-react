@@ -3,6 +3,9 @@ import { Calendar } from "./Calendar";
 
 const meta = {
     component: Calendar,
+    parameters: {
+        layout: 'centered',
+      },
 } satisfies Meta<typeof Calendar>;
 
 export default meta;

@@ -4,6 +4,9 @@ import Group from "./Group";
 
 const meta = {
     component: Group,
+    parameters: {
+        layout: 'centered',
+      },
 } satisfies Meta<typeof Group>;
 
 export default meta;

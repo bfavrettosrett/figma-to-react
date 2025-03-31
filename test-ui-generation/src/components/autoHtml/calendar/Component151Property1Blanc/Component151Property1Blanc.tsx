@@ -1,3 +1,4 @@
+import React from "react"
 import styles from "./Component151Property1Blanc.module.css";
 
 export interface IComponent151Property1BlancProps {

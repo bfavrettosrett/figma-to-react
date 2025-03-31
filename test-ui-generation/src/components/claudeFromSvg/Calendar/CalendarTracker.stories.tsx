@@ -4,6 +4,9 @@ import CalendarTracker from "./CalendarTracker.tsx";
 
 const meta = {
     component: CalendarTracker,
+    parameters: {
+        layout: 'centered',
+      },
 } satisfies Meta<typeof CalendarTracker>;
 
 export default meta;

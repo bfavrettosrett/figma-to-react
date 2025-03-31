@@ -4,6 +4,9 @@ import InputDesign from "./InputDesign.tsx";
 
 const meta = {
     component: InputDesign,
+    parameters: {
+        layout: 'centered',
+      },
 } satisfies Meta<typeof InputDesign>;
 
 export default meta;

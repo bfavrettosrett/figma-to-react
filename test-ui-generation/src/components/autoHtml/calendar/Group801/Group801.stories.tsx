@@ -4,6 +4,9 @@ import { Group801 } from "./Group801";
 
 const meta = {
     component: Group801,
+    parameters: {
+        layout: 'centered',
+      },
 } satisfies Meta<typeof Group801>;
 
 export default meta;

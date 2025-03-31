@@ -10,7 +10,7 @@ interface CalendarProps {
 interface CalendarEvent {
     date: Date;
     value: number;
-    type: "leak" | "usage"; // Changed from meeting/task/reminder to leak/usage
+    type: "leak" | "usage";
     severity?: "low" | "medium" | "high";
 }
 
