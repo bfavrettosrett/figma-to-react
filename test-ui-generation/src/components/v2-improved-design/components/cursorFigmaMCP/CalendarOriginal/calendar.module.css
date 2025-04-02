@@ -1,0 +1,154 @@
+.calendar {
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 5px 5px 32.4px rgba(61, 65, 124, 0.1);
+    width: 308px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.monthYear {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 38px;
+    color: #102C79;
+    margin: 0;
+}
+
+.weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 32px);
+    gap: 12px;
+    margin-bottom: 12px;
+    opacity: 0.76;
+}
+
+.weekday {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #102C79;
+    text-align: center;
+    width: 32px;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 32px);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.day {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.day:focus {
+    outline: none;
+}
+
+.day:focus-visible {
+    outline: 2px solid #7B61FF;
+    border-radius: 4px;
+}
+
+.dayNumber {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    color: #000000;
+    z-index: 2;
+    position: relative;
+}
+
+.otherMonth {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.otherMonth .dayNumber {
+    color: #939393;
+}
+
+.today::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    background-color: #E4E4E4;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.utilisationIndicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    background-color: #91BA6E;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.fuiteIndicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    background-color: #D36A00;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.legend {
+    display: flex;
+    gap: 24px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.legendItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.utilisationDot {
+    width: 8px;
+    height: 8px;
+    background-color: #7FAD57;
+    border-radius: 50%;
+}
+
+.fuiteRect {
+    width: 8px;
+    height: 8px;
+    background-color: #7FAD57;
+    border-radius: 4px;
+}

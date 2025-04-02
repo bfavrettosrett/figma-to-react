@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* background-color: #1a1a1a; Couleur de fond sombre */
+    padding: 16px;
+    border-radius: 8px;
+  }
+
+  .checkboxWrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .checkbox {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #CCCCCC; /* Bordure blanche */
+    border-radius: 4px; /* Coins arrondis */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; /* Fond par défaut */
+  }
+
+  .checkbox.checked {
+    background-color: #ffffff; /* Fond blanc quand sélectionné */
+  }
+
+  .checkmark {
+    font-size: 16px;
+    color: #0066ff; /* Couleur du checkmark */
+  }
+
+  .label {
+    margin-left: 8px;
+    color: #414A78; /* Texte blanc */
+    font-size: 16px;
+  }
